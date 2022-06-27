@@ -1,0 +1,36 @@
+.preHeader {
+    color:#1b9e9e;
+    font-weight:600;
+}
+
+.headerText {
+    margin-left:3px;
+}
+
+.headerText a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.location > .headerText {
+    border-bottom:1px dashed #1b9e9e;
+}
+
+.location:hover > .headerText {
+    border-bottom:1px dashed #a3a3a3;
+}
+
+.location {
+    cursor: pointer;
+}
+
+.group i {
+    color: rgb(167, 91, 91) !important;
+}
+
+.group {
+    margin-bottom:3%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
